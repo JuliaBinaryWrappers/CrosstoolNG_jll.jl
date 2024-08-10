@@ -1,0 +1,65 @@
+name = "CrosstoolNG"
+version = "1.25.0"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "CrosstoolNG"
+platform = "x86_64-linux-gnu"
+lazy = "false"
+src_version = "1.25.0"
+
+    [[builds.licenses]]
+    license_text = "Unless otherwise stated in individual files, this work is licensed to you under\nthe following terms.\n\n- Files in docs/ are available under the Creative Commons Attribution, Share\n  Alike (by-sa), v2.5, to be found there:\n    licenses.d/by-sa/deed.en     (human-readable summary)\n    licenses.d/by-sa/legalcode   (legal code, the full license)\n    \n- Files found in patches/*/ are available under the same license as the\n  upstream software they apply to.\n\n  That means that you can't use those patches if you were licensed the\n  software under a specific license which is not the one the software is\n  commonly available under.\n\n  As an example, if you ever managed to get the Linux kernel under a license\n  other than the GPLv2, you are not allowed to use the Linux kernel patches\n  coming with crosstool-NG, as those are available under the GPLv2, which is\n  the license the Linux kernel is most commonly available under.\n\n  As a convenience, the GNU Lesser General Public License (LGPL) v2.1 (for the\n  patches against glibc, uClibc, and some other libraries) is available there:\n    licenses.d/lgpl.txt\n\n- Other files not covered by the above licenses, and not covered by an\n  individual license specified in the file itself, or an accompanying file,\n  are available under the GNU General Public License (GPL), v2, to be found\n  here:\n    licenses.d/gpl.txt\n\n- Also, I want to clarify one point. If you build a toolchain with crosstool-NG\n  and you happen to sell, deliver, or otherwise publish this toolchain to a\n  third party, I consider crosstool-NG as being part of the sources needed to\n  rebuild the afore-mentioned toolchain, alongside with all other source code\n  that third party is otherwise entitled to receive, due to other licenses of\n  the different components. See licenses.d/gpl.txt, section 3, which reads:\n   > For an executable work, complete source code means [...], plus the\n   > scripts used to control compilation and installation of the executable.\n\n  In short: crosstool-NG is the part refered to as \"the scripts to control\n  compilation and installation of the executable\", it being the toolchain in\n  our case; and as such you must make it available, in conformance to the\n  GPLv2, see above.\n\n  Also, if you have local patches that you apply to the different components\n  (either manualy, or by instructing crosstool-NG to do so), you will have to\n  make those patches available alongside with your toolchain, to comply with\n  the licenses of the components impacted by your patches.\n"
+    filename = "COPYING"
+    [[builds.licenses]]
+    license_text = "Unless otherwise stated in individual files, this work is licensed to you under\nthe following terms.\n\n- Files in docs/ are available under the Creative Commons Attribution, Share\n  Alike (by-sa), v2.5, to be found there:\n    licenses.d/by-sa/deed.en     (human-readable summary)\n    licenses.d/by-sa/legalcode   (legal code, the full license)\n    \n- Files found in patches/*/ are available under the same license as the\n  upstream software they apply to.\n\n  That means that you can't use those patches if you were licensed the\n  software under a specific license which is not the one the software is\n  commonly available under.\n\n  As an example, if you ever managed to get the Linux kernel under a license\n  other than the GPLv2, you are not allowed to use the Linux kernel patches\n  coming with crosstool-NG, as those are available under the GPLv2, which is\n  the license the Linux kernel is most commonly available under.\n\n  As a convenience, the GNU Lesser General Public License (LGPL) v2.1 (for the\n  patches against glibc, uClibc, and some other libraries) is available there:\n    licenses.d/lgpl.txt\n\n- Other files not covered by the above licenses, and not covered by an\n  individual license specified in the file itself, or an accompanying file,\n  are available under the GNU General Public License (GPL), v2, to be found\n  here:\n    licenses.d/gpl.txt\n\n- Also, I want to clarify one point. If you build a toolchain with crosstool-NG\n  and you happen to sell, deliver, or otherwise publish this toolchain to a\n  third party, I consider crosstool-NG as being part of the sources needed to\n  rebuild the afore-mentioned toolchain, alongside with all other source code\n  that third party is otherwise entitled to receive, due to other licenses of\n  the different components. See licenses.d/gpl.txt, section 3, which reads:\n   > For an executable work, complete source code means [...], plus the\n   > scripts used to control compilation and installation of the executable.\n\n  In short: crosstool-NG is the part refered to as \"the scripts to control\n  compilation and installation of the executable\", it being the toolchain in\n  our case; and as such you must make it available, in conformance to the\n  GPLv2, see above.\n\n  Also, if you have local patches that you apply to the different components\n  (either manualy, or by instructing crosstool-NG to do so), you will have to\n  make those patches available alongside with your toolchain, to comply with\n  the licenses of the components impacted by your patches.\n"
+    filename = "LICENSE"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+    [[builds.deps]]
+    name = "Ncurses_jll"
+    uuid = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+    compat = "*"
+    [[builds.deps]]
+    name = "Readline_jll"
+    uuid = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:97bf0975409cabee063ad5066bee367020ab1077"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:8f7825f699d64ce9839691790de509531dad361797bd698938e554c80e6ff918"
+        url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-build_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:6a31d5e0faf72428bd52b68a1aa485cf31f27d5a"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:f44915cc6879f3bd8d402b063af7436beb876dc6657fb3961b762c6a12265eed"
+        url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-extract_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ct_ng"
+    type = "executable"
+    path = "bin/ct-ng"
+
+    [[builds.sources]]
+    treehash = "sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99"
+    url = "http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:bbb01ef2e3be60f540f62093e846b21e83ca7401"
+    url = "/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:3349dc1d5a792a9b299926cd7cde89b8cc56264d"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3b38d8269f7bee58d1efe212d9732a8c2e54d0036e8910eb43189210b5ddba08"
+        url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-v1.25.0-x86_64-linux-gnu.tar.gz"
