@@ -1,31 +1,31 @@
 [[CrosstoolNG]]
 arch = "x86_64"
-git-tree-sha1 = "3349dc1d5a792a9b299926cd7cde89b8cc56264d"
+git-tree-sha1 = "d396bf16d106e8913c7bbf4e3db1fe02113e01ee"
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG.download]]
-    sha256 = "3b38d8269f7bee58d1efe212d9732a8c2e54d0036e8910eb43189210b5ddba08"
-    url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-v1.25.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "f8737409154dcd606fde6112759821aed7dd378ef1018d202db567ae4db75797"
+    url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
 
 [[CrosstoolNG-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "97bf0975409cabee063ad5066bee367020ab1077"
+git-tree-sha1 = "ed6cf4e1069e5ab89bfd7eed284709cfcb8b40d8"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG-build_log.download]]
-    sha256 = "8f7825f699d64ce9839691790de509531dad361797bd698938e554c80e6ff918"
-    url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-build_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "7b75f5930e5354576e4f76a68fb0f3978cef41f5d7ccb8f3829529a011e4b8f1"
+    url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
 [[CrosstoolNG-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "6a31d5e0faf72428bd52b68a1aa485cf31f27d5a"
+git-tree-sha1 = "d604c5c009512187e79e093591f4358e21032618"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG-extract_log.download]]
-    sha256 = "f44915cc6879f3bd8d402b063af7436beb876dc6657fb3961b762c6a12265eed"
-    url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-extract_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "05107ed1f35fa91f196a184774be2fa71a92c79dc8b1134e60fd7db2fca021ef"
+    url = "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
